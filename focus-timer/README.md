@@ -1,6 +1,6 @@
 # focus-timer
 
-A single-file browser stopwatch for tracking focused work time. No install, no accounts, no noise.
+Minimal focused work timer.
 
 ## Usage
 
@@ -17,8 +17,6 @@ Open `timer.html` in any browser.
 
 ## Features
 
-**Counts up in minutes** — large, full-screen display. The number flashes on each increment so you notice it without staring.
-
-**Color cycle mode** — when enabled, the theme slowly shifts from dark to light and back over a 90-minute cycle, tied to elapsed time. It's a passive ambient cue for how long you've been working. Pausing freezes the color; restarting resets it.
-
-**Zero dependencies** — one HTML file, one Google Font. Works offline once cached.
+- Counts up in minutes
+- Color cycle mode: theme shifts dark → light over 90-min cycles (toggle bottom-right dot)
+- No dependencies — single HTML file, works offline
